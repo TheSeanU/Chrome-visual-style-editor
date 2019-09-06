@@ -1,0 +1,97 @@
+/*!
+ * jQuery contextMenu - Plugin for simple contextMenu handling
+ *
+ * Version: git-master
+ *
+ * Authors: Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://medialize.github.com/jQuery-contextMenu/
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *   GPL v3 http://opensource.org/licenses/GPL-3.0
+ *
+ */
+
+.context-menu-list li,.context-menu-list li span{
+	cursor:pointer !important;
+}
+ 
+.context-menu-list {
+    margin:0; 
+    padding:0;
+	-webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	-webkit-transition: opacity 0.218s ease 0s;
+	-moz-transition: opacity 0.218s ease 0s;
+	transition: opacity 0.218s ease 0s;
+	background: #FFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	cursor: default;
+	font-size: 13px;
+	outline: none;
+	padding: 6px 0px;
+	position: absolute;
+	line-height: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.context-menu-list li > .context-menu-list{
+	display:none;
+}
+
+.context-menu-submenu.active > .context-menu-list,.context-menu-submenu.hover > .context-menu-list{
+	display:block;
+}
+
+.context-menu-item {
+    padding-left: 16px;
+	vertical-align: middle;
+	padding-right: 44px;
+
+    position: relative;
+    color: #333;
+    cursor: pointer;
+    list-style: none;
+    margin: 0px;
+    padding: 6px 8em 6px 18px;
+    white-space: nowrap;
+}
+
+.context-menu-separator {
+    border-top: 1px solid #EBEBEB;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding:0px !important;
+}
+
+.context-menu-item.hover{
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+
+.context-menu-item.yp-disable-contextmenu {
+    color: #ccc !important;
+	background:#FFF !important;
+	cursor:default !important;
+}
+
+.context-menu-item.yp-disable-contextmenu,.context-menu-item.yp-disable-contextmenu span{
+	cursor:default !important;
+}
+
+
+.context-menu-item.yp-active-contextmenu {
+	background:#FFD000 !important;
+}
+
+.yp-contextmenu-focus.yp-active-contextmenu{
+	background:#D21411 !important;
+	color:#FFF !important;
+}
+
+.context-menu-list{
+	z-index:2147483647 !important;
+	max-width: 170px !important;
+	width: 170px !important;
+}
