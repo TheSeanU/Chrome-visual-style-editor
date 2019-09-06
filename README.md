@@ -20,4 +20,4 @@ This plugin can modify styles of 'text', 'background', 'margin', 'padding', 'bor
 #### License
 MIT
 
-(./unnamed.webp)
+![alt text](./unnamed.webp)
