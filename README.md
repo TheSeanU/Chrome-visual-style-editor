@@ -11,7 +11,7 @@ This plugin can modify styles of 'text', 'background', 'margin', 'padding', 'bor
 
 #### Usage
 
-* open [visual style editor's address](https://google.com) or search 'Visual Style Editor' in chrome webstore and install it;
+* open [visual style editor's address](https://chrome.google.com/webstore/detail/visual-css-editor/mibmnbcmaafgepannenjiemibkojedam?utm_source=chrome-ntp-icon) or search 'Visual Style Editor' in chrome webstore and install it;
 * click the plugin logo and initial the plugin in any website;
 * select any element and change the style into what you want;
 * copy the result and put it into the last position of the head tag when redeploy the site;
